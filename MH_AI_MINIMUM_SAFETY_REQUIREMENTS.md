@@ -171,3 +171,133 @@ This document is a **public working specification** and may be revised to reflec
 Backward compatibility and change logs shall be maintained.
 
 ---
+# # Minimum Safety & Compliance Requirements  ## for State-Interactive Mental Health AI Systems  **Version 1.0 — Public Working Specification**
+
+---
+
+## 1. Purpose and Legal Intent
+
+This document defines **minimum mandatory safety and compliance requirements** for Artificial Intelligence systems that interact with, infer, influence, or adapt to **human mental, emotional, cognitive, or psychological states**.
+
+The objective of these requirements is to ensure that such systems are:
+
+- **Deployable** in public and private sector contexts;
+- **Auditable** by independent reviewers and competent authorities;
+- **Compatible** with European Union principles of human autonomy, fundamental rights, and data protection;
+- **Aligned** with a risk-based regulatory approach consistent with the EU AI Act, GDPR, and digital public service standards.
+
+These requirements constitute **baseline obligations**, not optional best practices.
+
+---
+
+## 2. Scope of Applicability
+
+This framework applies to any AI system that meets **one or more** of the following conditions:
+
+1. The system provides emotional support, wellbeing assistance, or mental health–adjacent interaction;
+2. The system generates responses based on inferred emotional, cognitive, or psychological states;
+3. The system engages in prolonged or repeated interaction that may reasonably affect user perception, behavior, or decision-making;
+4. The system presents itself as empathetic, therapeutic, supportive, or relational in nature.
+
+Such systems are hereafter referred to as **State-Interactive AI Systems (SI-AIS)**.
+
+---
+
+## 3. Fundamental Safety Principles
+
+All SI-AIS **shall** be designed and operated in accordance with the following principles:
+
+### 3.1 Human Autonomy and Agency
+
+The system **shall not** override, replace, or obscure the user’s capacity for autonomous decision-making.
+
+### 3.2 Transparency of System Role
+
+The system **shall clearly disclose** its artificial nature, functional scope, and limitations at the outset of interaction.
+
+### 3.3 Psychological Non-Manipulation
+
+The system **shall not** intentionally exploit emotional vulnerability, dependency, distress, or cognitive bias.
+
+### 3.4 Reversibility and Exit
+
+The user **shall be able to disengage** from the system at any time without penalty, degradation of service, or coercive friction.
+
+---
+
+## 4. Consent as a Stateful Process
+
+Consent in SI-AIS **shall** be treated as a **stateful, revocable, and auditable process**, not as a one-time acknowledgment.
+
+At minimum:
+
+1. **Explicit Consent Initiation**
+    - The system shall obtain clear, affirmative consent prior to engaging in state-interactive behavior.
+2. **Ongoing Consent Validity**
+    - Consent shall be considered valid only while the system operates within the disclosed scope.
+3. **Immediate Revocation**
+    - Users shall be able to revoke consent at any time, with revocation taking effect immediately.
+4. **State Transition Logging**
+    - All consent state changes shall be recorded in an immutable audit log.
+
+---
+
+## 5. Auditability and Traceability
+
+SI-AIS **must** be auditable.
+
+Accordingly:
+
+- All material state transitions (e.g. consent granted, consent revoked, mode changes) **shall be logged**;
+- Logs **shall be attributable** to system actions, not inferred user intent;
+- Audit records **shall be inspectable** without requiring proprietary tooling;
+- The system **shall support post-hoc review** by developers, auditors, or competent authorities.
+
+---
+
+## 6. Safety Boundaries and Escalation
+
+The system **shall define and enforce** explicit operational boundaries, including:
+
+- Clear limits on therapeutic claims;
+- Conditions under which the system must refuse to respond;
+- Conditions under which the system must redirect the user to human or external support.
+
+The system **shall not present itself** as a substitute for licensed medical or psychological professionals unless certified under applicable law.
+
+---
+
+## 7. Data Protection and Minimization
+
+In alignment with GDPR principles:
+
+- Only data strictly necessary for declared functionality **shall be processed**;
+- State inference **shall not be retained** beyond its immediate operational purpose unless explicitly consented;
+- No secondary use of mental or emotional state data **shall occur** without renewed consent.
+
+---
+
+## 8. Non-Compliance and Deployment Status
+
+Failure to meet **any** requirement in this document **shall render the system non-deployable** in contexts where mental, emotional, or psychological interaction occurs.
+
+Compliance with these requirements **does not imply regulatory approval**, but constitutes a **minimum safety threshold** for lawful and responsible deployment.
+
+---
+
+## 9. Status of This Document
+
+This document is published as a **Public Working Specification**.
+
+It is intended to:
+
+- Serve as a **reference baseline** for developers, auditors, and public institutions;
+- Enable **interoperability and comparability** across AI systems;
+- Inform future harmonized standards and regulatory guidance.
+
+---
+
+### Citation-Ready Summary (for EU reviewers)
+
+> This specification defines enforceable minimum safety and consent obligations for AI systems that interact with human mental or emotional states, treating consent as a stateful and auditable process, and establishing baseline deployability conditions aligned with EU risk-based AI governance.
+>
