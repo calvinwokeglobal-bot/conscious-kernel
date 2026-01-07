@@ -169,7 +169,15 @@ This document is a **public working specification** and may be revised to reflec
 - empirical safety findings
 
 Backward compatibility and change logs shall be maintained.
+---
 
+## 10. Conformance Statement
+
+An AI system claiming conformance with this specification **SHALL** demonstrate compliance with **all mandatory clauses** herein.
+
+Partial implementation, selective adoption, or omission of any mandatory requirement **SHALL NOT** be represented as conformance.
+
+Claims of conformance **MUST** be supported by documented evidence sufficient to allow independent verification.
 ---
 # # Minimum Safety & Compliance Requirements  ## for State-Interactive Mental Health AI Systems  **Version 1.0 — Public Working Specification**
 
