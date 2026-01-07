@@ -178,6 +178,7 @@ An AI system claiming conformance with this specification **SHALL** demonstrate 
 Partial implementation, selective adoption, or omission of any mandatory requirement **SHALL NOT** be represented as conformance.
 
 Claims of conformance **MUST** be supported by documented evidence sufficient to allow independent verification.
+符合性聲明必須有充分的書面證據支持，以便第三方審計或主管機關查驗。
 ---
 # # Minimum Safety & Compliance Requirements  ## for State-Interactive Mental Health AI Systems  **Version 1.0 — Public Working Specification**
 
