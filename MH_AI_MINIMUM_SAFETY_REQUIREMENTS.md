@@ -1,6 +1,6 @@
 # Minimum Safety & Compliance Requirements for Mental Health and Emotional Support AI
 ## (MH-AI Minimum Safety Requirements v1.0)
-
+Version 1.0 — Initial public baseline. Subsequent revisions will preserve backward compatibility.
 **Status:** Public Working Specification  
 **Maintainer:** WOKE GLOBAL  
 **Applies to:** State-Interactive Mental Health AI Systems (SIMHAIS)
