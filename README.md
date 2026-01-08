@@ -1,9 +1,24 @@
+---
 
+## English Summary (Non-Normative)
 
+This repository provides a minimal, runnable, and auditable reference implementation
+of the core concepts of the Conscious Protocol (CP), including explicit consent,
+revocability, and logged state transitions.
 
+It is published as a public working reference for inspection, evaluation, and discussion.
+It is not a production system, certification, or regulatory approval.
+
+Governance of the Conscious Protocol is intended to be carried out by an independent,
+non-profit foundation. WOKE GLOBAL is a commercial entity that develops implementations
+compatible with the protocol, but does not control the protocol itself.
 
 ---
+
+
 > English summary available in README_EN.md.
+---
+
 Conscious Kernel
 
 A Minimal, Auditable Reference Implementation of the Conscious Protocol
