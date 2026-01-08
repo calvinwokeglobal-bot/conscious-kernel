@@ -3,7 +3,7 @@
 
 
 ---
-
+> English summary available in README_EN.md.
 Conscious Kernel
 
 A Minimal, Auditable Reference Implementation of the Conscious Protocol
