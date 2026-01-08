@@ -1,7 +1,8 @@
 ## Version 0.1 — Scope and Limits
 
 This repository is a **minimal, inspectable reference implementation** of the Conscious Protocol.
-
+Governance Summary
+The Conscious Protocol is intended to be stewarded by an independent, non-profit foundation to ensure long-term neutrality, openness, and public trust. Governance of the protocol is designed to prevent control by any single commercial entity and to support transparent, multi-stakeholder participation. WOKE GLOBAL is a commercial organization that develops implementations, tools, and products compatible with the Conscious Protocol, but does not control or govern the protocol itself. Conformance to the protocol does not imply endorsement, certification, or regulatory approval.
 Version 0.1 demonstrates only:
 
 - Explicit consent creation
