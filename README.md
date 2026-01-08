@@ -1,59 +1,138 @@
-## Version 0.1 — Scope and Limits
 
-This repository is a **minimal, inspectable reference implementation** of the Conscious Protocol.
-Governance Summary
-The Conscious Protocol is intended to be stewarded by an independent, non-profit foundation to ensure long-term neutrality, openness, and public trust. Governance of the protocol is designed to prevent control by any single commercial entity and to support transparent, multi-stakeholder participation. WOKE GLOBAL is a commercial organization that develops implementations, tools, and products compatible with the Conscious Protocol, but does not control or govern the protocol itself. Conformance to the protocol does not imply endorsement, certification, or regulatory approval.
-Version 0.1 demonstrates only:
 
-- Explicit consent creation
-- Consent revocation
-- Audit logging of state changes
-- A runnable example (`examples/demo.py`)
 
-Non-goals for v0.1:
 
-- Production readiness
-- Security hardening
-- Performance optimization
-- Networked or distributed operation
-- Regulatory completeness
-
-This version exists solely to make the core ideas **runnable, reviewable, and falsifiable**.
-
-## Version 0.1 — Scope and Limits
-
-This repository is a **minimal, inspectable reference implementation** of the Conscious Protocol.
-
-Version 0.1 demonstrates only:
-
-- Explicit consent creation
-- Consent revocation
-- Audit logging of state changes
-- A runnable example (`examples/demo.py`)
-
-Non-goals for v0.1:
-
-- Production readiness
-- Security hardening
-- Performance optimization
-- Networked or distributed operation
-- Regulatory completeness
-
-This version exists solely to make the core ideas **runnable, reviewable, and falsifiable**.# conscious-kernel
-Minimal reference implementation of the **Conscious Protocol (CP)**.
-This repository exists to make the core ideas of the Conscious Protocol
-**inspectable, runnable, and auditable** in a concrete form.
-It is intentionally minimal.
 ---
-## Purpose
-The Conscious Protocol defines a simple contract for how intelligent systems
-should handle **explicit human consent** and **auditable state changes**.
-This repository provides:
-- a minimal consent object
-- a minimal audit log
-- a clear separation between protocol logic and application logic
-Nothing here is production-optimized.  
-Everything here is designed to be *readable and verifiable*.
+
+Conscious Kernel
+
+A Minimal, Auditable Reference Implementation of the Conscious Protocol
+
+Version: 0.1
+Status: Public Working Reference
+Maintainer: WOKE GLOBAL
+
+
 ---
-## Repository Structure# conscious-kernel
-Minimal reference implementation of the Conscious Protocol
+
+Overview
+
+This repository provides a minimal, runnable, and inspectable reference implementation of the core concepts of the Conscious Protocol (CP).
+
+It is intentionally limited in scope and exists to demonstrate that the protocol’s foundational ideas—explicit consent, revocability, and auditable state transitions—can be implemented concretely in code.
+
+This repository is not a production system, certification, or regulatory approval.
+
+
+---
+
+Purpose
+
+The purpose of this repository is to:
+
+Demonstrate a minimum viable implementation of Conscious Protocol concepts
+
+Enable inspection, auditing, and falsification of core claims
+
+Provide a shared reference for developers, researchers, and reviewers
+
+Support discussion and evaluation of stateful consent in AI systems
+
+
+The focus is correctness, clarity, and auditability — not performance or completeness.
+
+
+---
+
+Scope and Limitations (v0.1)
+
+Version 0.1 intentionally supports only the following:
+
+Explicit consent creation
+
+Consent revocation
+
+Auditable logging of state transitions
+
+A single runnable example (examples/demo.py)
+
+
+Out of scope for v0.1
+
+Production hardening
+
+Security guarantees
+
+Optimization
+
+Distributed or networked operation
+
+Regulatory certification or compliance claims
+
+
+This version exists solely to make the core ideas real, testable, and reviewable.
+
+
+---
+
+Repository Structure
+
+conscious-kernel/
+├── examples/
+│   └── demo.py              # Runnable demonstration
+├── consent.py               # Consent object and state handling
+├── audit.py                 # Immutable audit logging
+├── CONSCIOUS_PROTOCOL.md    # Protocol overview
+├── MH_AI_MINIMUM_SAFETY_REQUIREMENTS.md
+└── README.md
+
+
+---
+
+Minimum Safety & Compliance Context
+
+This repository references the document:
+
+“Minimum Safety & Compliance Requirements for State-Interactive Mental Health AI Systems”
+
+This document defines baseline safety obligations for AI systems that interact with, infer, or influence human mental or emotional states. It is published as a Public Working Specification and is intended as a reference for developers, auditors, and institutions.
+
+Compliance with that document does not imply regulatory approval.
+
+
+---
+
+Governance Summary (Non-Normative)
+
+The Conscious Protocol is intended to be stewarded by an independent, non-profit foundation to ensure long-term neutrality, openness, and public trust. Governance of the protocol is designed to prevent control by any single commercial entity and to support transparent, multi-stakeholder participation. WOKE GLOBAL is a commercial organization that develops implementations and tools compatible with the Conscious Protocol, but does not control or govern the protocol itself. Conformance to the protocol does not imply endorsement, certification, or regulatory approval.
+
+
+---
+
+Status
+
+This repository represents a minimum, inspectable reference implementation.
+
+It is deliberately small so that:
+
+All behavior can be understood by inspection
+
+All claims can be tested by execution
+
+All state changes can be audited
+
+
+Future versions may expand functionality, but backward compatibility of core concepts is expected.
+
+
+---
+
+License & Use
+
+This repository is published for research, evaluation, and discussion purposes.
+
+Use in production systems is at your own discretion and responsibility.
+
+
+---
+
