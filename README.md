@@ -1,3 +1,5 @@
+Governance: The Conscious Protocol is stewarded by an independent non-profit foundation in formation.  
+See /foundation/FOUNDATION_CHARTER.md.
 ---
 
 ## English Summary (Non-Normative)
